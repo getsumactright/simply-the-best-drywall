@@ -1,0 +1,6 @@
+# Staging: the pages carry noindex. When the site goes live, remove the noindex
+# meta tag from index.html and point Sitemap at the real domain.
+User-agent: *
+Allow: /
+
+Sitemap: https://getsumactright.github.io/simply-the-best-drywall/sitemap.xml
